@@ -127,19 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Downloads\OneDrive_1_2026-7-7\Character.cpp" />
-    <ClCompile Include="..\..\..\Downloads\OneDrive_1_2026-7-7\Collision.cpp" />
-    <ClCompile Include="..\..\..\Downloads\OneDrive_1_2026-7-7\Game.cpp" />
-    <ClCompile Include="..\..\..\Downloads\OneDrive_1_2026-7-7\Main.cpp" />
-    <ClCompile Include="Game.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Downloads\OneDrive_1_2026-7-7\Character.h" />
-    <ClInclude Include="..\..\..\Downloads\OneDrive_1_2026-7-7\Collision.h" />
-    <ClInclude Include="..\..\..\Downloads\OneDrive_1_2026-7-7\Game.h" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
